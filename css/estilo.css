@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*HEADER*/
+header{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navegacion{
+    background-color: white;
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+    font-size:x-large;
+    justify-content: space-around;
+    
+}
+
+.header__navegacion li{
+    display: inline;
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*INDEX -PORTADA*/
+
+.portada{
+    display:flex;
+    flex-direction: column;
+    background-image: url("../recursos/polar_bear_and_baby-wild_animal_desktop_wallpaper_1366x768.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.portada__contenido{
+    display:flex;
+    flex-direction: column;
+}
+    
+
+
+.portada__contenido h2{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(53, 53, 53);
+}
+
+.portada__contenido p{
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 300px;
+    height: 100px;
+    color: black;
+}
+
+.portada__contenido .boton{
+    background-color:black;
+    color: white;
+}
+
+.portada__contenido p{
+    font-family: 'Abel', sans-serif;
+}
+.portada__titulo{
+    font-family: 'Abel', sans-serif;
+    font-size: 90px;
+}
+
+/*INDEX-ACTUALIDAD*/
+.actualidad{
+    display:flex;
+    flex-direction: column;
+}
+
+.actualidad__titulo{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 24px;
+    color: grey;
+}
+.actualidad__contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+    align-items: flex-end;
+}
+
+.actualidad__contenido div{
+    width: 300px;
+    height: 300px;
+    color: white;
+    
+}
+.actualidad__contenido div p{
+    color: black;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+
+}
+
+.actualidad__contenido img {
+    width: 600px;
+    height: 400px;
+}
+
+.actualidad__contenido div button{
+    background-color: rgb(159, 159, 159);
+    color: white;
+}
+
+/*INDEX-NOTICIAS*/
+
+
+.noticias{
+    display: flex;
+    flex-direction: column;
+}
+
+.noticias__titulo{
+    font-family: 'Abel', sans-serif;
+    font-size:  70px;;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.noticias__contenido{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.noticias__contenido img{
+    width: 400px;
+    height: 400px;
+} 
+
+.boton{
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    background-color: white;
+}
+
+.footer__contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contacto h3{
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+}
+
+.footer__contacto div{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+.footer__redes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__redes h3{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+/* ANIMALES- TOPANIMALES*/
+
+.mainAnimales{
+    background-color: rgb(172, 168, 168);
+}
+.topAnimales{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.topAnimales__ranking{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    width: 300px;
+    height: 200px;
+    color: white;
+    margin: 50px;
+    padding: 10px;
+    align-items: center;
+}
+.topAnimales__ranking h2{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 15px;
+}
+
+.topAnimales__ranking ol{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.topAnimales__video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 10px;
+}
+
+.topAnimales__video h2{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+.topAnimales__video iframe{
+    width: 350px;
+    height: 200px;
+}
+/*ANIMALES-DESTACADO*/
+.destacado{
+    display: flex;
+    flex-direction: column;
+}
+
+.destacado h2{
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.destacado__contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+    align-items: flex-end;
+}
+
+.destacado__contenido div{
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+
+.destacado__contenido img{
+    width: 600px;
+    height: 400px;
+}
+
+.destacado__contenido p{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+
+.destacado__contenido div button{
+    background-color: rgb(159, 159, 159);
+    color: white;
+}
+/*ANIMALES-VIDEOS*/
+.videos{
+    display: flex;
+    flex-direction: column;
+}
+
+.videos__titulo{
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    letter-spacing: 20px;
+}
+
+.videos div{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*CONTACTO*/
+
+.contacto{
+    display: grid;
+    grid-template-areas: "titulo titulo"
+                        "form mapa";
+    padding: 1rem;
+}
+
+.contacto h1{
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contacto__formulario{
+    grid-area: form;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+}
+
+.contacto__formulario form{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 10px;
+    
+}
+
+.contacto__titulo{
+    grid-area: titulo;
+}
+
+.contacto__maps{
+    grid-area: mapa;
+}
+
+/*HISTORIA*/
+
+.historia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "i1 p1"
+                        "p2 i2";
+    gap: 2rem;
+    padding: 15px;
+}
+
+
+.mainHistoria{
+    background-color: black;
+}
+
+.historia__imagen1{
+    grid-area: i1;
+    background-image: url(../recursos/450_1000.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.historia__parrafo1{
+    grid-area: p1;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.historia__imagen2{
+    grid-area: i2;
+    background-image: url(../recursos/ngsf000003_190803_100592.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.historia__parrafo2{
+    grid-area: p2;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+/*GALERIA*/
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr;
+    grid-template-areas: "t t t"
+                        "i1 i5 i2"
+                        "i3 i5 i4";
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.imagen{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagen1{
+    grid-area: i1;
+    background-image: url(../recursos/ay-que-paciencia-hay-que-tener_33b06acb_1920x1257.jpg);
+
+}
+.imagen2{
+    grid-area: i2;
+    background-image: url(../recursos/osopanda.jpg);
+
+}
+.imagen3{
+    grid-area: i3;
+    background-image: url(../recursos/africa-21787_1280.jpg);
+
+}
+
+.imagen4{
+    grid-area: i4;
+    background-image: url(../recursos/susurros-chinos_ec3b4168_1920x1280.jpg);
+
+}
+
+.imagen5{
+    grid-area: i5;
+    background-image: url(../recursos/01_booktalk_wolves.jpg);
+
+}
+
+
+
+.titulo__galeria{
+    grid-area: t;
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+/*MEDIA QUIRES*/
+
+/*CELULAR*/
+@media (min-width: 320px) and (max-width:540px){
+
+    .header__navegacion ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+        /*HISTORIA*/
+    .historia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*CONTACTO*/
+    .contacto{
+        grid-template-areas: "titulo"
+                            "form"
+                            "mapa";
+    }
+
+    /*GALERIA*/
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 2fr;
+
+        grid-template-areas: "t t"
+                            "i5 i5";
+    
+    }
+
+
+    .titulo__galeria{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 541px) and (max-width:720px){
+
+    .galeria{
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 2fr 3fr;
+
+        grid-template-areas: "t t t"
+                            "i2 i5 i3";
+    
+    }
+    .contacto{
+        grid-template-areas: "titulo"
+                            "form"
+                            "mapa";
+    }
+    .historia{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
