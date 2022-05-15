@@ -31,12 +31,31 @@ a{
 }
 
 
+/*TRANSFORMACION Y TRANSICION*/
+
+button:hover{
+    transform: scale(1.3);
+}
+.portada__contenido{
+    transition: all 2s;
+}
+.portada__contenido:hover{
+    transform: scale(1.1);
+}
+.contacto__maps:hover{
+    transform: scale(1.3);
+}
+
+.imagen:hover{
+    transform: scale(1.3);
+}
+
 /*INDEX -PORTADA*/
 
 .portada{
     display:flex;
     flex-direction: column;
-    background-image: url("../recursos/polar_bear_and_baby-wild_animal_desktop_wallpaper_1366x768.jpg");
+    background-image: url(../recursos/polar_bear_and_baby-wild_animal_desktop_wallpaper_1366x768.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,6 +66,7 @@ a{
 .portada__contenido{
     display:flex;
     flex-direction: column;
+    padding: 90px;
 }
     
 
@@ -117,8 +137,9 @@ a{
 }
 
 .actualidad__contenido div button{
-    background-color: rgb(159, 159, 159);
+    background: grey;
     color: white;
+    border: grey;
 }
 
 /*INDEX-NOTICIAS*/
@@ -438,6 +459,8 @@ a{
     background-image: url(../recursos/01_booktalk_wolves.jpg);
 
 }
+
+
 
 
 
