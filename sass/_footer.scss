@@ -1,0 +1,27 @@
+/* FOOTER */
+
+.footer{
+    display: flex;
+    background-color: $color-principal;
+    &__contacto{
+        display: flex;
+        flex-direction: column;
+        h3{
+            font-family: $font-principal;
+            font-size: 30px;
+        }
+        div{
+            font-family: $font-principal;
+            font-size: 25px;
+        }
+    }
+    &__redes{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        h3{
+            font-family: $font-principal;
+            font-size: 25px;
+        }
+    }
+}

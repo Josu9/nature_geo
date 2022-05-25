@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    background-color: $color-principal;
+    align-items: center;
+    justify-content: space-between;
+    &__navegacion li{
+        display: inline;
+        padding: 30px;
+    }
+    &__logo{
+        height: 50px;
+        width: 50px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: $color-secundario;
+        &:hover{
+            color: $color-secundario;
+            transform: scale(1.3);
+    }
+
+    }
+}
+
+.navbar{
+    background-color: $color-principal;
+    padding: 10px;
+    font-family: $font-principal;
+    font-size:x-large;
+    justify-content: space-around;
+    
+}
