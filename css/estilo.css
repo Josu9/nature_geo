@@ -351,22 +351,11 @@
   /*ANIMALES*/
   .grid__animales {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "top" "dest"; }
+    grid-template-areas: "top"; }
   .topAnimales__video {
     display: none; }
   .destacado {
-    display: flex;
-    flex-direction: column; }
-  .destacado__contenido {
-    display: flex;
-    flex-direction: column; }
-    .destacado__contenido img {
-      width: 28rem;
-      height: 25rem;
-      padding: 1rem; }
-    .destacado__contenido div {
-      display: none; }
+    display: none; }
   .videos {
     display: none; }
   .destacado h2:hover {

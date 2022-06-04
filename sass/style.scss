@@ -383,9 +383,7 @@
     /*ANIMALES*/
     .grid__animales{
         grid-template-columns: 1fr ;
-        grid-template-rows: 1fr ;
         grid-template-areas: "top"
-                            "dest"
     }
     
     .topAnimales__video{
@@ -393,22 +391,9 @@
     }
 
     .destacado{
-        display: flex;
-        flex-direction: column;
+        display:none;
     }
-    .destacado__contenido{
-        display: flex;
-        flex-direction: column;
-        img{
-            width: 28rem;
-            height: 25rem;
-            padding:1rem;
-            }
-        div{
-            display: none;
-        }
     
-    } 
     
     .videos{
         display: none;
