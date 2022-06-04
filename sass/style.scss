@@ -1,5 +1,4 @@
 @import 'variables';
-@import 'mediaquerie';
 @import 'header';
 @import 'footer';
 
@@ -214,10 +213,6 @@
         flex-direction: row;
         justify-content: space-around;
         margin: 2rem;
-        img{
-            width: 55vw;
-            height: 55vh;
-        }
         div{
             display: flex;
             flex-direction: column;
@@ -236,6 +231,10 @@
         p{
             color: $color-principal;
             font-family: $font-principal;
+        }
+        img{
+            height: 55vh;
+            width: 55vw;
         }
     }
 }
@@ -317,5 +316,215 @@
         text-align: center;
         
     }
+}
+
+/*CELULAR*/
+@media (min-width: 320px) and (max-width:540px){
+
+    .header{
+        &__navegacion ul{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+
+    /*INDEX*/
+    
+    
+    .portada{
+        &__contenido{
+            display: none;
+        }
+        &__titulo{
+            font-size: 4.5rem;
+        }
+
+    }
+    
+    .noticias{
+        display: none;
+    }
+
+    .actualidad{
+        display: flex;
+        flex-direction: column;
+        &__contenido{
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 28rem;
+                height: 25rem;
+                padding:1rem;
+            }
+        }
+        &__titulo{
+            font-family: $font-principal;
+            text-align: center;
+            font-size: 40px;
+            letter-spacing: 20px;
+            color: grey;
+        }
+    }
+
+    /*HISTORIA*/
+    .historia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*CONTACTO*/
+    .contacto{
+        &__maps{
+            display: none;
+            
+        }
+    }
+
+    /*ANIMALES*/
+    .grid__animales{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr ;
+        grid-template-areas: "top"
+                            "dest"
+    }
+    
+    .topAnimales__video{
+        display: none;
+    }
+
+    .destacado{
+        display: flex;
+        flex-direction: column;
+    }
+    .destacado__contenido{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 28rem;
+            height: 25rem;
+            padding:1rem;
+            }
+        div{
+            display: none;
+        }
+    
+    } 
+    
+    .videos{
+        display: none;
+    }
+    .destacado h2:hover{
+        transform: scale(1);
+    }
+    .topAnimales__ranking li:hover{
+        transform: scale(1);
+    }
+
+    
+
+    /*GALERIA*/
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 2fr;
+
+        grid-template-areas: "t t"
+                            "i5 i5";
+    
+    }
+
+
+    .titulo__galeria{
+        font-size: 20px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+/*Tablet*/
+@media (min-width: 541px) and (max-width:720px){
+
+    /*INDEX*/
+    .portada{
+        display: flex;
+        flex-direction: column;
+        &__contenido{
+            flex: display;
+            flex-direction: column;
+            align-items: center;
+        }
+        .boton{
+            &:hover{
+                transform: scale(1);
+            }
+        }
+    }
+
+        
+    .actualidad{
+        display: flex;
+        flex-direction: column;
+        &__contenido{
+            img{
+                text-align: center;
+            }
+            div{
+                    display: none;
+            }
+        }
+    }
+    .noticias{
+        display: none;
+    }
+
+    
+    /*ANIMALES*/
+    .mainAnimales{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr ;
+        grid-template-areas: "top"
+                            "dest"
+    }
+    
+    .topAnimales{
+        &__video{
+            display: none;
+        }
+        &__ranking{
+            li{
+                &:hover{
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+
+    .destacado{
+        &__contenido{
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 28rem;
+                height: 25rem;
+                padding:2rem;
+                }
+            div{
+                display: none;
+            }
+        }
+        h2{
+            &:hover{
+                transform: scale(1);
+            }  
+        }    
+    }
+
+    .videos{
+            display: none;
+        }
 }
 
