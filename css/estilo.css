@@ -27,26 +27,49 @@
 
 /* FOOTER */
 .footer {
-  display: flex;
-  background-color: white; }
-  .footer__contacto {
+  padding: 20px 0px;
+  background-color: #dbd5d5; }
+  .footer__container {
     display: flex;
-    flex-direction: column; }
-    .footer__contacto h3 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 5px; }
+    .footer__container .container__nosotros {
+      display: flex;
+      flex-direction: column;
       font-family: "Abel", sans-serif;
-      font-size: 30px; }
-    .footer__contacto div img {
+      max-width: 300px;
       text-align: center; }
-    .footer__contacto div {
-      font-family: "Abel", sans-serif;
-      font-size: 25px; }
-  .footer__redes {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; }
-    .footer__redes h3 {
-      font-family: "Abel", sans-serif;
-      font-size: 25px; }
+      .footer__container .container__nosotros h2 {
+        font-size: 25px;
+        font-weight: bold; }
+      .footer__container .container__nosotros p {
+        color: #7a7a7a;
+        font-size: 15px; }
+    .footer__container .container__redes {
+      display: flex;
+      flex-direction: column; }
+      .footer__container .container__redes h2 {
+        font-family: "Abel", sans-serif;
+        font-size: 20px; }
+      .footer__container .container__redes div {
+        display: flex;
+        gap: 10px;
+        justify-content: center; }
+        .footer__container .container__redes div img {
+          width: 25px;
+          height: 25px; }
+  .footer__derechos {
+    font-family: "Abel", sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px; }
+    .footer__derechos p {
+      margin-top: 20px;
+      color: #7a7a7a; }
 
 * {
   margin: 0;
@@ -369,10 +392,17 @@
     grid-template-areas: "t t" "i5 i5"; }
   .titulo__galeria {
     font-size: 20px; }
+  /*FOOTER*/
   .footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center; } }
+    flex-direction: column; }
+    .footer__container {
+      max-width: 480px;
+      padding: 5px;
+      justify-content: center; }
+    .footer__derechos {
+      max-width: 480px;
+      padding: 5px; } }
 
 /*Tablet*/
 @media (min-width: 541px) and (max-width: 720px) {

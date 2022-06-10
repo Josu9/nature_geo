@@ -422,10 +422,19 @@
         font-size: 20px;
     }
 
+    /*FOOTER*/
     .footer{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        &__container{
+            max-width: 480px;
+            padding: 5px;
+            justify-content: center;
+        }
+        &__derechos{
+            max-width: 480px;
+            padding: 5px;
+        }
     }
 
 }
