@@ -446,4 +446,10 @@
   .destacado h2:hover {
     transform: scale(1); }
   .videos {
-    display: none; } }
+    display: none; }
+  /*FOOTER*/
+  .footer__container {
+    max-width: 720px;
+    justify-content: center; }
+  .footer__derechos {
+    max-width: 720px; } }

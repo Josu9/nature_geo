@@ -520,5 +520,17 @@
     .videos{
             display: none;
         }
+    
+    /*FOOTER*/
+    .footer{
+        &__container{
+            max-width: 720px;
+            justify-content: center;
+        }
+        &__derechos{
+            max-width: 720px;
+        }
+    }
+
 }
 
