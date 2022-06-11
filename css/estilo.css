@@ -303,6 +303,11 @@
 /*HISTORIA*/
 .historia {
   background-color: black; }
+  .historia h1 {
+    font-family: "Abel", sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center; }
   .historia__imagen1 {
     background-image: url(../recursos/450_1000.jpg);
     background-size: cover;

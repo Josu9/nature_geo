@@ -277,6 +277,12 @@
 
 .historia{
     background-color: $color-secundario;
+    h1{
+        font-family: $font-principal;
+        color: white;
+        font-size: 60px;
+        text-align: center;
+    }
     &__imagen1{
         background-image: url(../recursos/450_1000.jpg);
         background-size: cover;
