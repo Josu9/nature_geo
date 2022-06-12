@@ -28,7 +28,7 @@
                         <a class="nav-link" href="animales.html">Animales</a>
                         <a class="nav-link" href="historia.html">Historia</a>
                         <a class="nav-link" href="galeria.html">Galeria</a>
-                        <a class="nav-link" href="contacto.html">Contactos</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                         
                     </div>
                 </div>
@@ -38,14 +38,15 @@
 
     <main>
         <section class="container contacto">
-            <article class="row">
-            <div class=" col-xl-12 col-md-12 col-sm-12">
-                <h1 class="contacto__titulo">CONTACTA CON NOSOTROS </h1>
+            <article class="row contacto__introduccion">
+            <div class=" col-xl-12 col-md-12 col-sm-12 contacto__introduccion__titulo">
+                <h1>CONTACTA CON NOSOTROS </h1>
+                <p>¿Quieres formar parte de nuestra comunidad? Dejá tus datos y unite</p>
             </div>
-            </article>
-
+        </article>
         <!--FORMULARIO DE CONTACTO-->
-            <article class="row contacto__formulario">
+        <section class=" contacto__formulario">
+            <article class="row contacto__formulario__form">
                 <div class="col-xl-6 col-md-12 col-sm-12 ">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">|NOMBRE|</label>
@@ -60,10 +61,11 @@
                         <textarea class="form-control" id="mensaje" rows="3"></textarea>
                     </div>
                 </div>
-                <div class="col-xl-6 col-md-12 col-sm-12 contacto__maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52361.125475583016!2d-58.10168205341041!3d-34.89213402860321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2de7dcfe08117%3A0x138071d3f8e9721e!2sCity%20Bell%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1650856825580!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                <button class="boton">Enviar</button>
             </article>
+            <div class="col-xl-6 col-md-12 col-sm-12 contacto__formulario__maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52361.12547558294!2d-58.10168205341041!3d-34.89213402860321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2de7dcfe08117%3A0x138071d3f8e9721e!2sCity%20Bell%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1654990619571!5m2!1ses-419!2sar" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
     </main>
     <!--INICIO DE FOOTER-->
